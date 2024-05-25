@@ -16,7 +16,7 @@ def testSample():
 
 @check50.check(exists)
 def testSample2():
-    """input of 5 and 5 yields output of 'Sum: 18 Difference: 6 Product: 72 Quotient: 2.0'"""
+    """input of 12 and 6 yields output of 'Sum: 18 Difference: 6 Product: 72 Quotient: 2.0'"""
     check50.run("python3 arithmetic.py")\
         .stdin("12", prompt=True)\
         .stdin("6", prompt=True)\
