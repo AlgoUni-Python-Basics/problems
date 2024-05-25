@@ -7,7 +7,7 @@ def exists():
 
 @check50.check(exists)
 def test_anagrams():
-    """Correctly identifies anagrams"""
+    """first program check"""
     check50.run("python3 hello.py")\
         .stdout("Hello World")\
         .exit(0)
